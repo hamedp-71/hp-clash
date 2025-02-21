@@ -204,6 +204,21 @@
                 "🇸🇪 Warp - IPv6",
                 "🇳🇱 Amsterdam - IPv6"
             ]
+        },
+        {
+            "name": "Best Ping",
+            "type": "url-test",
+            "url": "https://www.gstatic.com/generate_204",
+            "interval": 30,
+            "tolerance": 50,
+            "proxies": [
+                "🇮🇷 Warp - IPv4",
+                "🇩🇪 Warp - IPv4",
+                "🇳🇱 Amsterdam - IPv4",
+                "🇮🇷 Warp - IPv6",
+                "🇸🇪 Warp - IPv6",
+                "🇳🇱 Amsterdam - IPv6"
+            ]
         }
     ],
     "rule-providers": {
