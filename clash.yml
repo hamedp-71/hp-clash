@@ -322,7 +322,7 @@
             }
         },
         {
-            "name": "🇬🇧-hamedp71",
+            "name": "🇬🇧-hamedp71-1",
             "type": "wireguard",
             "ip": "10.1.33.145/32",
             "private-key": "mJK35TL0Nf4ESOiMGSUwvzC9nj7RMaYAQAG9vU4EA04=",
@@ -372,7 +372,7 @@
             }
         },
         {
-            "name": "🇺🇸-hamedp71-1",
+            "name": "🇺🇸-hamedp71",
             "type": "wireguard",
             "ip": "10.1.33.145/32",
             "private-key": "mJK35TL0Nf4ESOiMGSUwvzC9nj7RMaYAQAG9vU4EA04=",
