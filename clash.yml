@@ -58,13 +58,13 @@ proxies:
     ip: 172.16.0.3
     ipv6: 2001:db8:1::1
     private-key: "pQ15jrTUSHWaZUZrR7VKob9PjbrStxUQJ/akkKkplsU="
-    server: 188.114.97.135
+    server: 188.114.97.136
     port: 1010
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: [209,98,59]
     udp: true
-    mtu: 1306
+    mtu: 1316
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -88,7 +88,7 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1280
+    mtu: 1316
     dialer-proxy: "🇮🇷 Warp - IPv4"
 
   - name: "🇳🇱 Amsterdam - IPv4"
@@ -110,7 +110,7 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1280
+    mtu: 1316
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -133,7 +133,7 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1280
+    mtu: 1316
     dialer-proxy: "🇮🇷 Warp - IPv6"
 
   - name: "🇮🇷 hamedp71-1"
@@ -149,9 +149,9 @@ proxies:
     mtu: 1316
     dialer-proxy: ""
     amnezia-wg-option:
-      jc: 15
-      jmin: 1
-      jmax: 15
+      jc: 4
+      jmin: 40
+      jmax: 100
       s1: 0
       s2: 0
       h1: 1
@@ -172,9 +172,9 @@ proxies:
     mtu: 1316
     dialer-proxy: ""
     amnezia-wg-option:
-      jc: 15
-      jmin: 1
-      jmax: 15
+      jc: 4
+      jmin: 40
+      jmax: 100
       s1: 0
       s2: 0
       h1: 1
@@ -192,18 +192,18 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1280
+    mtu: 1316
     dialer-proxy: ""
     amnezia-wg-option:
-      jc: 1
-      jmin: 2
-      jmax: 2
+      jc: 4
+      jmin: 40
+      jmax: 100
       s1: 0
       s2: 0
-      h1: 0
-      h2: 0
-      h4: 0
-      h3: 0
+      h1: 1
+      h2: 2
+      h4: 3
+      h3: 4
 
   - name: "🇩🇪-hamedp71"
     type: wireguard
@@ -215,18 +215,18 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1280
+    mtu: 1316
     dialer-proxy: ""
     amnezia-wg-option:
-      jc: 1
-      jmin: 2
-      jmax: 2
+      jc: 4
+      jmin: 40
+      jmax: 100
       s1: 0
       s2: 0
-      h1: 0
-      h2: 0
-      h4: 0
-      h3: 0
+      h1: 1
+      h2: 2
+      h4: 3
+      h3: 4
 
   - name: "🇳🇱-hamedp71"
     type: wireguard
@@ -238,18 +238,18 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1280
+    mtu: 1316
     dialer-proxy: ""
     amnezia-wg-option:
-      jc: 1
-      jmin: 2
-      jmax: 2
+      jc: 4
+      jmin: 40
+      jmax: 100
       s1: 0
       s2: 0
-      h1: 0
-      h2: 0
-      h4: 0
-      h3: 0
+      h1: 1
+      h2: 2
+      h4: 3
+      h3: 4
 
   - name: "🇺🇦-hamedp71"
     type: wireguard
@@ -261,18 +261,18 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1280
+    mtu: 1316
     dialer-proxy: ""
     amnezia-wg-option:
-      jc: 1
-      jmin: 2
-      jmax: 2
+      jc: 4
+      jmin: 40
+      jmax: 100
       s1: 0
       s2: 0
-      h1: 0
-      h2: 0
-      h4: 0
-      h3: 0
+      h1: 1
+      h2: 2
+      h4: 3
+      h3: 4
 
   - name: "🇷🇺-hamedp71"
     type: wireguard
@@ -284,18 +284,18 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1280
+    mtu: 1316
     dialer-proxy: ""
     amnezia-wg-option:
-      jc: 1
-      jmin: 2
-      jmax: 2
+      jc: 4
+      jmin: 40
+      jmax: 100
       s1: 0
       s2: 0
-      h1: 0
-      h2: 0
-      h4: 0
-      h3: 0
+      h1: 1
+      h2: 2
+      h4: 3
+      h3: 4
 
   - name: "🇬🇧-hamedp71-1"
     type: wireguard
@@ -307,18 +307,18 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1280
+    mtu: 1316
     dialer-proxy: ""
     amnezia-wg-option:
-      jc: 1
-      jmin: 2
-      jmax: 2
+      jc: 4
+      jmin: 40
+      jmax: 100
       s1: 0
       s2: 0
-      h1: 0
-      h2: 0
-      h4: 0
-      h3: 0
+      h1: 1
+      h2: 2
+      h4: 3
+      h3: 4
 
   - name: "🇲🇩-hamedp71"
     type: wireguard
@@ -330,18 +330,18 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1280
+    mtu: 1316
     dialer-proxy: ""
     amnezia-wg-option:
-      jc: 1
-      jmin: 2
-      jmax: 2
+      jc: 4
+      jmin: 40
+      jmax: 100
       s1: 0
       s2: 0
-      h1: 0
-      h2: 0
-      h4: 0
-      h3: 0
+      h1: 1
+      h2: 2
+      h4: 3
+      h3: 4
 
   - name: "🇺🇸-hamedp71"
     type: wireguard
@@ -353,18 +353,18 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1280
+    mtu: 1316
     dialer-proxy: ""
     amnezia-wg-option:
-      jc: 1
-      jmin: 2
-      jmax: 2
+      jc: 4
+      jmin: 40
+      jmax: 100
       s1: 0
       s2: 0
-      h1: 0
-      h2: 0
-      h4: 0
-      h3: 0
+      h1: 1
+      h2: 2
+      h4: 3
+      h3: 4
 
 proxy-groups:
   - name: "✅ Selector"
@@ -390,8 +390,8 @@ proxy-groups:
   - name: "🚀 Auto-Select (Best)"
     type: url-test
     url: "http://www.gstatic.com/generate_204"
-    interval: 15
-    tolerance: 50
+    interval: 30
+    tolerance: 150
     proxies:
       - "🇮🇷 Warp - IPv4"
       - "🇩🇪 Warp - IPv4"
