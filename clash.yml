@@ -190,6 +190,62 @@
             "cipher": "chacha20-ietf-poly1305",
             "password": "2UrSffeNABXGXXfNhoL6xBUnh1RzqMizrQ2s9QfC38P2YPuYPRTqW5zZg6jGisiNhkzM4SRjF6nzvFb18GPtESWoXWjhqyC8",
             "dialer-proxy": "Warp IR - IPv6"
+        },
+        {
+            "name": "w-hamedp71",
+            "type": "wireguard",
+            "ip": "172.16.0.2/32",
+            "private-key": "uGcdKX8LYYIk/Xj+0QB/fvRPEoHx1WziauH6khat3U8=",
+            "server": "188.114.97.160",
+            "port": 945,
+            "public-key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+            "allowed-ips": [
+                "0.0.0.0/0",
+                "::/0"
+            ],
+            "reserved": [105,13,151],
+            "udp": true,
+            "mtu": 1316,
+            "dialer-proxy": "",
+            "amnezia-wg-option": {
+                "jc": 15,
+                "jmin": 1,
+                "jmax": 15,
+                "s1": 0,
+                "s2": 0,
+                "h1": 1,
+                "h2": 2,
+                "h4": 3,
+                "h3": 4
+            }
+        },
+        {
+            "name": "w-hamedp71-1",
+            "type": "wireguard",
+            "ip": "172.16.0.2/32",
+            "private-key": "uGcdKX8LYYIk/Xj+0QB/fvRPEoHx1WziauH6khat3U8=",
+            "server": "188.114.98.185",
+            "port": 945,
+            "public-key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+            "allowed-ips": [
+                "0.0.0.0/0",
+                "::/0"
+            ],
+            "reserved": [105,13,151],
+            "udp": true,
+            "mtu": 1316,
+            "dialer-proxy": "",
+            "amnezia-wg-option": {
+                "jc": 15,
+                "jmin": 1,
+                "jmax": 15,
+                "s1": 0,
+                "s2": 0,
+                "h1": 1,
+                "h2": 2,
+                "h4": 3,
+                "h3": 4
+            }
         }
     ],
     "proxy-groups": [
@@ -202,7 +258,9 @@
                 "🇳🇱 Amsterdam - IPv4",
                 "🇮🇷 Warp - IPv6",
                 "🇸🇪 Warp - IPv6",
-                "🇳🇱 Amsterdam - IPv6"
+                "🇳🇱 Amsterdam - IPv6",
+                "w-hamedp71",
+                "w-hamedp71-1"
             ]
         },
         {
@@ -217,7 +275,9 @@
                 "🇳🇱 Amsterdam - IPv4",
                 "🇮🇷 Warp - IPv6",
                 "🇸🇪 Warp - IPv6",
-                "🇳🇱 Amsterdam - IPv6"
+                "🇳🇱 Amsterdam - IPv6",
+                "w-hamedp71",
+                "w-hamedp71-1"
             ]
         }
     ],
