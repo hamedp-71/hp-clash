@@ -192,6 +192,20 @@
             "dialer-proxy": "Warp IR - IPv6"
         }
     ],
+    "proxy-groups": [
+        {
+            "name": "✅ Selector",
+            "type": "select",
+            "proxies": [
+                "🇮🇷 Warp - IPv4",
+                "🇩🇪 Warp - IPv4",
+                "🇳🇱 Amsterdam - IPv4",
+                "🇮🇷 Warp - IPv6",
+                "🇸🇪 Warp - IPv6",
+                "🇳🇱 Amsterdam - IPv6"
+            ]
+        }
+    ],
     "rule-providers": {
         "malware": {
             "type": "http",
