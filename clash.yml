@@ -247,6 +247,222 @@
                 "h3": 4
             }
         }
+         {
+            "name": "london-hamedp71",
+            "type": "wireguard",
+            "ip": "10.1.33.145/32",
+            "private-key": "mJK35TL0Nf4ESOiMGSUwvzC9nj7RMaYAQAG9vU4EA04=",
+            "server": "109.169.22.75",
+            "port": 60100,
+            "public-key": "PCHW67+lEKBQI+qRFaRptHN+RrUBIXYZ/v2Xhi+CoRk=",
+            "allowed-ips": [
+                "0.0.0.0/0",
+                "::/0"
+            ],
+            "reserved": "AAAA",
+            "udp": true,
+            "mtu": 1280,
+            "dialer-proxy": "",
+            "amnezia-wg-option":{
+            "jc": 1,
+            "jmin": 2,
+            "jmax": 2,
+            "s1": 0,
+            "s2": 0,
+            "h1": 0,
+            "h2": 0,
+            "h4": 0,
+            "h3": 0 }
+        },
+        {
+            "name": "nuremberg-hamedp71",
+            "type": "wireguard",
+            "ip": "10.1.33.145/32",
+            "private-key": "mJK35TL0Nf4ESOiMGSUwvzC9nj7RMaYAQAG9vU4EA04=",
+            "server": "162.55.219.168",
+            "port": 60100,
+            "public-key": "PCHW67+lEKBQI+qRFaRptHN+RrUBIXYZ/v2Xhi+CoRk=",
+            "allowed-ips": [
+                "0.0.0.0/0",
+                "::/0"
+            ],
+            "reserved": "AAAA",
+            "udp": true,
+            "mtu": 1280,
+            "dialer-proxy": "",
+            "amnezia-wg-option":{
+            "jc": 1,
+            "jmin": 2,
+            "jmax": 2,
+            "s1": 0,
+            "s2": 0,
+            "h1": 0,
+            "h2": 0,
+            "h4": 0,
+            "h3": 0 }
+        },
+        {
+            "name": "amsterdam-hamedp71",
+            "type": "wireguard",
+            "ip": "10.1.33.145/32",
+            "private-key": "mJK35TL0Nf4ESOiMGSUwvzC9nj7RMaYAQAG9vU4EA04=",
+            "server": "50.7.176.133",
+            "port": 60100,
+            "public-key": "PCHW67+lEKBQI+qRFaRptHN+RrUBIXYZ/v2Xhi+CoRk=",
+            "allowed-ips": [
+                "0.0.0.0/0",
+                "::/0"
+            ],
+            "reserved": "AAAA",
+            "udp": true,
+            "mtu": 1280,
+            "dialer-proxy": "",
+            "amnezia-wg-option":{
+            "jc": 1,
+            "jmin": 2,
+            "jmax": 2,
+            "s1": 0,
+            "s2": 0,
+            "h1": 0,
+            "h2": 0,
+            "h4": 0,
+            "h3": 0 }
+        },
+        {
+            "name": "kyiv-hamedp71",
+            "type": "wireguard",
+            "ip": "10.1.33.145/32",
+            "private-key": "mJK35TL0Nf4ESOiMGSUwvzC9nj7RMaYAQAG9vU4EA04=",
+            "server": "31.42.186.176",
+            "port": 60100,
+            "public-key": "PCHW67+lEKBQI+qRFaRptHN+RrUBIXYZ/v2Xhi+CoRk=",
+            "allowed-ips": [
+                "0.0.0.0/0",
+                "::/0"
+            ],
+            "reserved": "AAAA",
+            "udp": true,
+            "mtu": 1280,
+            "dialer-proxy": "",
+            "amnezia-wg-option":{
+            "jc": 1,
+            "jmin": 2,
+            "jmax": 2,
+            "s1": 0,
+            "s2": 0,
+            "h1": 0,
+            "h2": 0,
+            "h4": 0,
+            "h3": 0 }
+        },
+        {
+            "name": "moscow-hamedp71",
+            "type": "wireguard",
+            "ip": "10.1.33.145/32",
+            "private-key": "mJK35TL0Nf4ESOiMGSUwvzC9nj7RMaYAQAG9vU4EA04=",
+            "server": "94.131.113.88",
+            "port": 60100,
+            "public-key": "PCHW67+lEKBQI+qRFaRptHN+RrUBIXYZ/v2Xhi+CoRk=",
+            "allowed-ips": [
+                "0.0.0.0/0",
+                "::/0"
+            ],
+            "reserved": "AAAA",
+            "udp": true,
+            "mtu": 1280,
+            "dialer-proxy": "",
+            "amnezia-wg-option":{
+            "jc": 1,
+            "jmin": 2,
+            "jmax": 2,
+            "s1": 0,
+            "s2": 0,
+            "h1": 0,
+            "h2": 0,
+            "h4": 0,
+            "h3": 0 }
+        },
+        {
+            "name": "london1-hamedp71",
+            "type": "wireguard",
+            "ip": "10.1.33.145/32",
+            "private-key": "mJK35TL0Nf4ESOiMGSUwvzC9nj7RMaYAQAG9vU4EA04=",
+            "server": "88.150.154.27",
+            "port": 60100,
+            "public-key": "PCHW67+lEKBQI+qRFaRptHN+RrUBIXYZ/v2Xhi+CoRk=",
+            "allowed-ips": [
+                "0.0.0.0/0",
+                "::/0"
+            ],
+            "reserved": "AAAA",
+            "udp": true,
+            "mtu": 1280,
+            "dialer-proxy": "",
+            "amnezia-wg-option":{
+            "jc": 1,
+            "jmin": 2,
+            "jmax": 2,
+            "s1": 0,
+            "s2": 0,
+            "h1": 0,
+            "h2": 0,
+            "h4": 0,
+            "h3": 0 }
+        },
+        {
+            "name": "chisinau-hamedp71",
+            "type": "wireguard",
+            "ip": "10.1.33.145/32",
+            "private-key": "mJK35TL0Nf4ESOiMGSUwvzC9nj7RMaYAQAG9vU4EA04=",
+            "server": "193.233.203.43",
+            "port": 60100,
+            "public-key": "PCHW67+lEKBQI+qRFaRptHN+RrUBIXYZ/v2Xhi+CoRk=",
+            "allowed-ips": [
+                "0.0.0.0/0",
+                "::/0"
+            ],
+            "reserved": "AAAA",
+            "udp": true,
+            "mtu": 1280,
+            "dialer-proxy": "",
+            "amnezia-wg-option":{
+            "jc": 1,
+            "jmin": 2,
+            "jmax": 2,
+            "s1": 0,
+            "s2": 0,
+            "h1": 0,
+            "h2": 0,
+            "h4": 0,
+            "h3": 0 }
+        },
+        {
+            "name": "newyorkcity-hamedp71",
+            "type": "wireguard",
+            "ip": "10.1.33.145/32",
+            "private-key": "mJK35TL0Nf4ESOiMGSUwvzC9nj7RMaYAQAG9vU4EA04=",
+            "server": "192.223.24.121",
+            "port": 60100,
+            "public-key": "PCHW67+lEKBQI+qRFaRptHN+RrUBIXYZ/v2Xhi+CoRk=",
+            "allowed-ips": [
+                "0.0.0.0/0",
+                "::/0"
+            ],
+            "reserved": "AAAA",
+            "udp": true,
+            "mtu": 1280,
+            "dialer-proxy": "",
+            "amnezia-wg-option":{
+            "jc": 1,
+            "jmin": 2,
+            "jmax": 2,
+            "s1": 0,
+            "s2": 0,
+            "h1": 0,
+            "h2": 0,
+            "h4": 0,
+            "h3": 0 }
+        },
     ],
     "proxy-groups": [
         {
@@ -261,6 +477,14 @@
                 "🇳🇱 Amsterdam - IPv6",
                 "w-hamedp71",
                 "w-hamedp71-1"
+                "london-hamedp71",
+                "nuremberg-hamedp71",
+                "amsterdam-hamedp71",
+                "kyiv-hamedp71",
+                "moscow-hamedp71",
+                "london1-hamedp71",
+                "chisinau-hamedp71",
+                "newyorkcity-hamedp71"
             ]
         },
         {
@@ -278,6 +502,14 @@
                 "🇳🇱 Amsterdam - IPv6",
                 "w-hamedp71",
                 "w-hamedp71-1"
+                "london-hamedp71",
+                "nuremberg-hamedp71",
+                "amsterdam-hamedp71",
+                "kyiv-hamedp71",
+                "moscow-hamedp71",
+                "london1-hamedp71",
+                "chisinau-hamedp71",
+                "newyorkcity-hamedp71"
             ]
         }
     ],
