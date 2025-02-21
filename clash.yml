@@ -2,8 +2,8 @@
     "mixed-port": 7890,
     "ipv6": true,
     "allow-lan": true,
-    "mode": "global",
-    "log-level": "silent",
+    "mode": "rule",
+    "log-level": "warning",
     "disable-keep-alive": false,
     "keep-alive-idle": 30,
     "keep-alive-interval": 30,
@@ -81,9 +81,10 @@
     },
     "proxies": [
         {
-            "name": "Warp IR - IPv4",
+            "name": "🇮🇷 Warp - IPv4",
             "type": "wireguard",
-            "ip": "172.16.0.2/32",
+            "ip": "172.16.0.3",
+            "ipv6": "2001:db8:1::1",
             "private-key": "pQ15jrTUSHWaZUZrR7VKob9PjbrStxUQJ/akkKkplsU=",
             "server": "188.114.97.135",
             "port": 1010,
@@ -92,27 +93,29 @@
                 "0.0.0.0/0",
                 "::/0"
             ],
-            "reserved": "AAAA",
+            "reserved": [209,98,59],
             "udp": true,
-            "mtu": 1280,
+            "mtu": 1306,
             "dialer-proxy": "",
             "amnezia-wg-option":{
-            "jc": 4,
-            "jmin": 40,
-            "jmax": 100,
-            "s1": 0,
-            "s2": 0,
-            "h1": 1,
-            "h2": 2,
-            "h4": 3,
-            "h3": 4 }
+                "jc": 4,
+                "jmin": 40,
+                "jmax": 100,
+                "s1": 0,
+                "s2": 0,
+                "h1": 1,
+                "h2": 2,
+                "h4": 3,
+                "h3": 4
+            }
         },
         {
-            "name": "Warp DE - IPv4",
+            "name": "🇩🇪 Warp - IPv4",
             "type": "wireguard",
-            "ip": "172.16.0.2/32",
+            "ip": "172.16.0.3",
+            "ipv6": "2001:db8:1::1",
             "private-key": "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I=",
-            "server": "188.114.98.125",
+            "server": "188.114.98.105",
             "port": 1010,
             "public-key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
             "allowed-ips": [
@@ -122,12 +125,22 @@
             "reserved": "AAAA",
             "udp": true,
             "mtu": 1280,
-            "dialer-proxy": "Warp IR - IPv4"
+            "dialer-proxy": "🇮🇷 Warp - IPv4"
         },
         {
-            "name": "Warp IR - IPv6",
+            "name": "🇳🇱 Amsterdam - IPv4",
+            "type": "ss",
+            "server": "198.105.123.190",
+            "port": 46902,
+            "cipher": "chacha20-ietf-poly1305",
+            "password": "2UrSffeNABXGXXfNhoL6xBUnh1RzqMizrQ2s9QfC38P2YPuYPRTqW5zZg6jGisiNhkzM4SRjF6nzvFb18GPtESWoXWjhqyC8",
+            "dialer-proxy": "🇮🇷 Warp - IPv4"
+        },
+        {
+            "name": "🇮🇷 Warp - IPv6",
             "type": "wireguard",
-            "ip": "172.16.0.2/32",
+            "ip": "172.16.0.2",
+            "ipv6": "2001:db8:1::3",
             "private-key": "GsKlQMftAHdzZjMC17pjwKl+Fs2EVoB8VvHb8JJVFr8=",
             "server": "[2606:4700:d0::5db:987a:2353:9dcc]",
             "port": 3854,
@@ -141,20 +154,21 @@
             "mtu": 1280,
             "dialer-proxy": "",
             "amnezia-wg-option":{
-            "jc": 4,
-            "jmin": 40,
-            "jmax": 100,
-            "s1": 0,
-            "s2": 0,
-            "h1": 1,
-            "h2": 2,
-            "h4": 3,
-            "h3": 4 }
+                "jc": 4,
+                "jmin": 40,
+                "jmax": 100,
+                "s1": 0,
+                "s2": 0,
+                "h1": 1,
+                "h2": 2,
+                "h4": 3,
+                "h3": 4
+            }
         },
         {
-            "name": "Warp SE - IPv6",
+            "name": "🇸🇪 Warp - IPv6",
             "type": "wireguard",
-            "ip": "172.16.0.2/32",
+            "ip": "172.16.0.2",
             "private-key": "0GapdERcPdqP7hXovlbv/HoUafjR3jB4EGGm+LXXdlA=",
             "server": "162.159.192.2",
             "port": 1010,
@@ -166,34 +180,16 @@
             "reserved": "AAAA",
             "udp": true,
             "mtu": 1280,
-            "dialer-proxy": "Warp IR - IPv6"
-        }
-    ],
-    "proxy-groups": [
-            {
-            "name": "✅ Selector",
-            "type": "select",
-            "proxies": [
-                "Best Ping",
-                "Warp IR - IPv4",
-                "Warp DE - IPv4",
-                "Warp IR - IPv6",
-                "Warp SE - IPv6",
-            ]
+            "dialer-proxy": "🇮🇷 Warp - IPv6"
         },
         {
-            "name": "Best Ping",
-            "type": "url-test",
-            "url": "https://www.gstatic.com/generate_204",
-            "interval": 30,
-            "tolerance": 50,
-            "proxies": [
-                "Warp IR - IPv4",
-                "Warp DE - IPv4",
-                "Warp IR - IPv6",
-                "Warp SE - IPv6",
-                
-            ]
+            "name": "🇳🇱 Amsterdam - IPv6",
+            "type": "ss",
+            "server": "198.105.123.190",
+            "port": 46902,
+            "cipher": "chacha20-ietf-poly1305",
+            "password": "2UrSffeNABXGXXfNhoL6xBUnh1RzqMizrQ2s9QfC38P2YPuYPRTqW5zZg6jGisiNhkzM4SRjF6nzvFb18GPtESWoXWjhqyC8",
+            "dialer-proxy": "Warp IR - IPv6"
         }
     ],
     "rule-providers": {
@@ -225,7 +221,8 @@
     "rules": [
         "RULE-SET,malware,REJECT",
         "RULE-SET,phishing,REJECT",
-        "RULE-SET,cryptominers,REJECT"
+        "RULE-SET,cryptominers,REJECT",
+        "MATCH,✅ Selector"
     ],
     "ntp": {
         "enable": true,
