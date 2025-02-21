@@ -246,8 +246,8 @@
                 "h4": 3,
                 "h3": 4
             }
-        }
-         {
+        },
+        {
             "name": "london-hamedp71",
             "type": "wireguard",
             "ip": "10.1.33.145/32",
@@ -462,7 +462,7 @@
             "h2": 0,
             "h4": 0,
             "h3": 0 }
-        },
+        }
     ],
     "proxy-groups": [
         {
@@ -476,7 +476,7 @@
                 "🇸🇪 Warp - IPv6",
                 "🇳🇱 Amsterdam - IPv6",
                 "w-hamedp71",
-                "w-hamedp71-1"
+                "w-hamedp71-1",
                 "london-hamedp71",
                 "nuremberg-hamedp71",
                 "amsterdam-hamedp71",
@@ -501,7 +501,7 @@
                 "🇸🇪 Warp - IPv6",
                 "🇳🇱 Amsterdam - IPv6",
                 "w-hamedp71",
-                "w-hamedp71-1"
+                "w-hamedp71-1",
                 "london-hamedp71",
                 "nuremberg-hamedp71",
                 "amsterdam-hamedp71",
