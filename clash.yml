@@ -18,7 +18,7 @@ external-controller-cors:
 profile:
   store-selected: true
   store-fake-ip: true
-hosts: {https://floral.hamedpeyvasi.workers.dev/}
+hosts: {}
 dns:
   enable: true
   listen: 0.0.0.0:1053
