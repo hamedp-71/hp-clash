@@ -389,8 +389,8 @@ proxy-groups:
   - name: "🚀 Auto-Select (Best)"
     type: url-test
     url: "http://www.gstatic.com/generate_204"
-    interval: 30
-    tolerance: 150
+    interval: 90
+    tolerance: 50
     proxies:
       - "🇮🇷 Warp - IPv4"
       - "🇩🇪 Warp - IPv4"
