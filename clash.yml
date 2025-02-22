@@ -410,7 +410,7 @@ proxy-groups:
       - "🇺🇸-hamedp71"
 
 rule-providers:
-   ir:
+  ir:
     type: http
     format: text
     behavior: domain
