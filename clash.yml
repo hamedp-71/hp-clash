@@ -389,7 +389,7 @@ proxy-groups:
   - name: "🚀 Auto-Select (Best)"
     type: url-test
     url: "http://www.gstatic.com/generate_204"
-    interval: 90
+    interval: 5
     tolerance: 50
     proxies:
       - "🇮🇷 Warp - IPv4"
