@@ -414,10 +414,10 @@ proxies:
       h3: 4
       
 proxy-groups:
-  - name: "✅ Selector"
+  - name: "✅ انتخاب دستی"
     type: select
     proxies:
-      - "🚀 Auto-Select (Best)"
+      - "🚀 انتخاب خودکار (بهترین)"
       - "🇮🇷 Warp - IPv4"
       - "🇩🇪 Warp - IPv4"
       - "🇳🇱 Amsterdam - IPv4"
@@ -436,7 +436,7 @@ proxy-groups:
       - "🇮🇷 hamedp71-3"
       - "🇮🇷 hamedp71-4"
 
-  - name: "🚀 Auto-Select (Best)"
+  - name: "🚀 انتخاب خودکار (بهترین)"
     type: url-test
     url: "http://www.gstatic.com/generate_204"
     interval: 90
@@ -511,10 +511,11 @@ rules:
   - RULE-SET,phishing,REJECT
   - RULE-SET,cryptominers,REJECT
   - RULE-SET,ads,REJECT
-  - MATCH,🚀 Auto-Select (Best)
+  - MATCH,🚀 انتخاب خودکار (بهترین)
 
 ntp:
   enable: true
   server: "time.apple.com"
   port: 123
   interval: 30
+  
