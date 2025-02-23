@@ -440,7 +440,7 @@ proxy-groups:
     type: url-test
     url: "http://www.gstatic.com/generate_204"
     interval: 90
-    tolerance: 50
+    tolerance: 25
     proxies:
       - "🇮🇷 Warp - IPv4"
       - "🇩🇪 Warp - IPv4"
