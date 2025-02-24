@@ -39,7 +39,7 @@ tun:
   auto-detect-interface: true
   dns-hijack: 
     - 'any:53'
-  mtu: 1316
+  mtu: 1280
 sniffer:
   enable: true
   force-dns-mapping: true
@@ -63,7 +63,7 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: [209,98,59]
     udp: true
-    mtu: 1316
+    mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -87,7 +87,7 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1316
+    mtu: 1280
     dialer-proxy: "🇮🇷 Warp - IPv4"
 
   - name: "🇳🇱 Amsterdam - IPv4"
@@ -109,7 +109,7 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1316
+    mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -132,7 +132,7 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1316
+    mtu: 1280
     dialer-proxy: "🇮🇷 Warp - IPv6"
 
   - name: "🇮🇷 hamedp71-1"
@@ -145,7 +145,7 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: [105,13,151]
     udp: true
-    mtu: 1316
+    mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -168,7 +168,7 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: [105,13,151]
     udp: true
-    mtu: 1316
+    mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -239,7 +239,7 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1316
+    mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -262,7 +262,7 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1316
+    mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -285,7 +285,7 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1316
+    mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -308,7 +308,7 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1316
+    mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -331,7 +331,7 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1316
+    mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -354,7 +354,7 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1316
+    mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -377,7 +377,7 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1316
+    mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -400,7 +400,7 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1316
+    mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
