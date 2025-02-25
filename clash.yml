@@ -391,7 +391,7 @@ proxy-groups:
   - name: "🚀 انتخاب خودکار (بهترین)"
     type: url-test
     url: "http://www.gstatic.com/generate_204"
-    interval: 60
+    interval: 300
     tolerance: 100
     proxies:
       - "🇮🇷 Warp - IPv4"
