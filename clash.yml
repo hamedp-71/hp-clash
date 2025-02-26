@@ -26,11 +26,16 @@ dns:
   respect-rules: true
   use-hosts: true
   use-system-hosts: false
-  nameserver: 
-    - '1.1.1.1'
-    - '1.0.0.1'
-  proxy-server-nameserver: 
+  nameserver:
     - '8.8.8.8'
+    - '2001:4860:4860::8888'
+    - '8.8.4.4'
+    - '2001:4860:4860::8844'
+  proxy-server-nameserver:
+    - '8.8.8.8'
+    - '2001:4860:4860::8888'
+    - '8.8.4.4'
+    - '2001:4860:4860::8844'
 tun:
   enable: true
   stack: mixed
