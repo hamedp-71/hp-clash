@@ -17,7 +17,7 @@ external-controller-cors:
   allow-private-network: true
 profile:
   store-selected: true
-  store-fake-ip: false
+  store-fake-ip: true
 hosts: {}
 dns:
   enable: true
@@ -53,7 +53,7 @@ sniffer:
   enable: true
   force-dns-mapping: true
   parse-pure-ip: true
-  override-destination: true
+  override-destination: false
   sniff:
     HTTP:
       ports: [80, 8080, 8880, 2052, 2082, 2086, 2095]
