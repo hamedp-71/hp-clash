@@ -1,12 +1,12 @@
 mixed-port: 7890
 ipv6: true
 allow-lan: true
-mode: global
+mode: rule
 log-level: warning
 disable-keep-alive: false
 keep-alive-idle: 30
 keep-alive-interval: 30
-unified-delay: false
+unified-delay: true
 geo-auto-update: true
 geo-update-interval: 168
 external-controller: '127.0.0.1:9090'
