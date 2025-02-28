@@ -42,7 +42,7 @@ tun:
   auto-route: true
   strict-route: true
   auto-detect-interface: true
-  dns-hijack: 
+  dns-hijack:
     - 'any:53'
   mtu: 1280
 sniffer:
@@ -217,7 +217,7 @@ proxies:
       h2: 2
       h4: 3
       h3: 4
-      
+
   - name: "🇲🇩-hamedp71"
     type: wireguard
     ip: 10.1.33.145/32
@@ -240,7 +240,7 @@ proxies:
       h2: 2
       h4: 3
       h3: 4
-      
+
   - name: "🇳🇱 Amsterdam - IPv4"
     type: ss
     server: 198.105.123.190
@@ -248,7 +248,7 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: "2UrSffeNABXGXXfNhoL6xBUnh1RzqMizrQ2s9QfC38P2YPuYPRTqW5zZg6jGisiNhkzM4SRjF6nzvFb18GPtESWoXWjhqyC8"
     dialer-proxy: "🇮🇷 Warp - IPv4"
-      
+
   - name: "🇮🇷 Warp - IPv4"
     type: wireguard
     ip: 172.16.0.3
@@ -324,7 +324,7 @@ proxies:
     udp: true
     mtu: 1280
     dialer-proxy: "🇮🇷 Warp - IPv6"
-      
+
 proxy-groups:
   - name: "✅ انتخاب دستی"
     type: select
@@ -423,4 +423,3 @@ ntp:
   server: "time.apple.com"
   port: 123
   interval: 30
-  
