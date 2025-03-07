@@ -360,7 +360,7 @@ proxies:
     dialer-proxy: "🇮🇷 Warp - IPv6"
 
 proxy-groups:
-  - name: "✅ انتخاب دستی"
+  - name: "🌐 گلوبال"
     type: select
     proxies:
       - "🚀 انتخاب خودکار (بهترین)"
@@ -451,7 +451,7 @@ rules:
   - RULE-SET,phishing,REJECT
   - RULE-SET,cryptominers,REJECT
   - RULE-SET,ads,REJECT
-  - MATCH,🚀 انتخاب خودکار (بهترین)
+  - MATCH,🌐 گلوبال
 
 ntp:
   enable: true
