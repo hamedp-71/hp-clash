@@ -382,15 +382,14 @@ proxy-groups:
   - name: "🚀 انتخاب خودکار (بهترین)"
     type: url-test
     url: "http://www.gstatic.com/generate_204"
-    interval: 120
-    tolerance: 25
+    interval: 600
+    tolerance: 100
     proxies:
       - "🇬🇧-hamedp71"
       - "🇬🇧-hamedp71-1"
       - "🇳🇱-hamedp71"
       - "🇺🇦-hamedp71"
       - "🇷🇺-hamedp71"
-      - "🇲🇩-hamedp71"
       - "🇺🇸-hamedp71"
       - "🇮🇷 Warp - IPv4-1"
       - "🇳🇱 Amsterdam - IPv4"
