@@ -195,29 +195,19 @@ proxies:
       h4: 3
       h3: 4
 
-  - name: "🇮🇷 Warp - IPv4-1"
+  - name: "🇩🇪 Warp - IPv4"
     type: wireguard
     ip: 172.16.0.3
-    ipv6: 2001:db8:1::3
-    private-key: "wbdzf5P8GQTujsFGQBXh6ipmDRkFSRypXRPSHvVSL5E="
-    server: 188.114.98.70
-    port: 943
+    ipv6: 2001:db8:1::2
+    private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
+    server: 188.114.98.105
+    port: 1010
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
     mtu: 1316
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 250
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
+    dialer-proxy: "🇮🇷 Warp - IPv4"
       
   - name: "🇳🇱 Amsterdam - IPv4"
     type: ss
@@ -251,19 +241,29 @@ proxies:
       h4: 3
       h3: 4
 
-  - name: "🇩🇪 Warp - IPv4"
+  - name: "🇮🇷 Warp - IPv4-1"
     type: wireguard
     ip: 172.16.0.3
-    ipv6: 2001:db8:1::2
-    private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
-    server: 188.114.98.105
-    port: 1010
+    ipv6: 2001:db8:1::3
+    private-key: "wbdzf5P8GQTujsFGQBXh6ipmDRkFSRypXRPSHvVSL5E="
+    server: 188.114.98.70
+    port: 943
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
     mtu: 1316
-    dialer-proxy: "🇮🇷 Warp - IPv4"
+    dialer-proxy: ""
+    amnezia-wg-option:
+      jc: 4
+      jmin: 40
+      jmax: 250
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h4: 3
+      h3: 4
 
   - name: "🇮🇷 Warp - IPv6"
     type: wireguard
