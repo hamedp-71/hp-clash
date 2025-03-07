@@ -206,7 +206,7 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1316
+    mtu: 1375
     dialer-proxy: "🇮🇷 Warp - IPv4"
       
   - name: "🇳🇱 Amsterdam - IPv4"
