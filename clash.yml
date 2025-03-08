@@ -200,13 +200,13 @@ proxies:
     ip: 172.16.0.3
     ipv6: 2001:db8:1::2
     private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
-    server: 188.114.98.105
+    server: 188.114.98.116
     port: 1010
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1375
+    mtu: 1316
     dialer-proxy: "🇮🇷 Warp - IPv4"
       
   - name: "🇳🇱 Amsterdam - IPv4"
