@@ -200,8 +200,8 @@ proxies:
     ip: 172.16.0.3
     ipv6: 2001:db8:1::2
     private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
-    server: 188.114.98.116
-    port: 1010
+    server: 188.114.97.149
+    port: 1843
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
@@ -222,8 +222,8 @@ proxies:
     ip: 172.16.0.3
     ipv6: 2001:db8:1::2
     private-key: "pQ15jrTUSHWaZUZrR7VKob9PjbrStxUQJ/akkKkplsU="
-    server: 188.114.97.113
-    port: 1010
+    server: 188.114.97.130
+    port: 1843
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
@@ -246,8 +246,8 @@ proxies:
     ip: 172.16.0.3
     ipv6: 2001:db8:1::3
     private-key: "wbdzf5P8GQTujsFGQBXh6ipmDRkFSRypXRPSHvVSL5E="
-    server: 188.114.98.70
-    port: 943
+    server: 188.114.97.67
+    port: 942
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
